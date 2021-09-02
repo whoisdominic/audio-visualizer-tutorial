@@ -1,7 +1,7 @@
 {
-	"name": "remotion-template",
+	"name": "audio-visualizer-tutorial",
 	"version": "1.0.0",
-	"description": "My Remotion video",
+	"description": "A tutorial on making a simple audio visualizer with react and remotion",
 	"scripts": {
 		"start": "remotion preview src/index.tsx",
 		"build": "remotion render src/index.tsx HelloWorld out.mp4",
@@ -10,7 +10,7 @@
 		"test": "eslint src --ext ts,tsx,js,jsx && tsc"
 	},
 	"repository": {},
-	"license": "UNLICENSED",
+	"license": "MIT",
 	"dependencies": {
 		"@remotion/bundler": "^2.3.2",
 		"@remotion/cli": "^2.3.2",
@@ -20,6 +20,7 @@
 		"@types/react": "^17.0.0",
 		"eslint": "^7.15.0",
 		"express": "^4.17.1",
+		"file-type": "^16.5.3",
 		"prettier": "^2.2.1",
 		"react": "^17.0.2",
 		"react-dom": "^17.0.2",
